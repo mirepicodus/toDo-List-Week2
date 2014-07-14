@@ -8,14 +8,22 @@
   <title>Todo</title>
 </head>
 <body>
-  <h2>Todo</h2>
-  <form>
-    <input placeholder="Please enter task.">
-    <button type= "submit">Add Task</button>
-
+  <div id="container">
+  <h1>Stuff To Do</h1>
+  <form id="tasks">
+    <input id="task" placeholder="Add a New Stuff">
+    <button type= "submit">></button>
   </form>
 
-  <h2>Tasks</h2>
-  <ul></ul>
+<div id="incomp">
+  <h2>Incomplete Tasks</h2>
+  <ul id="incomplete"></ul>
+</div>
+
+<div id="comp">
+  <h2>Complete Tasks</h2>
+  <ul id="complete"></ul>
+</div>
+</div>
 </body>
 </html>
