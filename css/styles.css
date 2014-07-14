@@ -4,13 +4,19 @@
 }
 
 body {
-  border-radius: 10px;
   max-width: 700px;
   margin: 30px auto;
-  border: 2px solid black;
   min-height: 800px;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
+}
+
+div#container {
+    background: url("http://subtlepatterns.com/patterns/linedpaper.png");
+    overflow:auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 800px;
 }
 
 li {
@@ -19,6 +25,10 @@ li {
 
 h1 {
   font-size: 46px;
+}
+
+li {
+  font-size: 1.2em;
 }
 
 div#comp {
@@ -31,9 +41,9 @@ div#incomp {
   width: 50%;
 }
 
-li:hover {
+div#incomp li:hover {
   cursor: pointer;
-  color:purple;
+  color:salmon;
 }
 
 form * {
@@ -45,7 +55,6 @@ form * {
 input {
   border-bottom: 1px solid black;
 }
-
 
 button:hover {
   color:salmon;
